@@ -1,3 +1,7 @@
+import os
+
+print(os.getenv('test_variable'))
+
 import math, time, board, digitalio
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
